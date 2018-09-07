@@ -1,0 +1,10 @@
+steps:
+## Deploy API docs
+- name: 'gcr.io/cloud-builders/gcloud'
+  entrypoint: 'bash'
+  args:
+  - '-c'
+  - |
+    gcloud compute scp --recurse instance-1:/home/swos .
+  waitFor: ['generate-api-docs']
+  id: 'deploy-api-docs'
