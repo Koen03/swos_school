@@ -1,0 +1,5 @@
+.gitignore
+readme.md
+.git
+scr/index.php
+cloudbuild.yml
