@@ -5,5 +5,5 @@ steps:
   args:
   - '-c'
   - |
-    gcloud compute scp --recurse instance-1:/home/swos .
-  id: 'deploy-api-docs'
+    gcloud compute --zone "europe-west4-a" scp --recurse instance-1:/home/swos .
+  id: 'deploy'
