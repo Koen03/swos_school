@@ -6,5 +6,4 @@ steps:
   - '-c'
   - |
     gcloud compute scp --recurse instance-1:/home/swos .
-  waitFor: ['generate-api-docs']
   id: 'deploy-api-docs'
