@@ -5,6 +5,6 @@ steps:
   args:
   - '-c'
   - |
-    gcloud compute project-info add-metadata --metadata-from-file ssh-keys=/home/ksengers/.ssh/
+    gcloud compute project-info add-metadata --metadata-from-file ssh-keys=/builder/home/.ssh/
     gcloud compute scp --recurse instance-1:/home/swos . --zone europe-west4-a
   id: 'deploy'
