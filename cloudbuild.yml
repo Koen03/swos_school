@@ -2,16 +2,6 @@ steps:
 - name: 'gcr.io/cloud-builders/gcloud'
   args: ['auth', 'list']
 
-## Deploy
-- name: 'gcr.io/cloud-builders/gcloud'
-  entrypoint: 'bash'
-  args:
-  - '-c'
-  - |
-    gcloud compute scp --recurse src/ swos@instance-1:/home/swos --zone europe-west4-a
-  waitFor: ['test-suite']
-  id: 'deploy'
-
 ## Test
 - name: composer:1.7.2
   entrypoint: 'sh'
@@ -21,3 +11,13 @@ steps:
       composer install
       ./vendor/bin/phpunit
   id: 'test-suite'
+
+## Deploy
+- name: 'gcr.io/cloud-builders/gcloud'
+  entrypoint: 'bash'
+  args:
+  - '-c'
+  - |
+    gcloud compute scp --recurse src/ swos@instance-1:/home/swos --zone europe-west4-a
+  waitFor: ['test-suite']
+  id: 'deploy'
