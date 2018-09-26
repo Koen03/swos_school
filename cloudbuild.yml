@@ -9,4 +9,15 @@ steps:
   - '-c'
   - |
     gcloud compute scp --recurse src/ swos@instance-1:/home/swos --zone europe-west4-a
+  waitFor: ['test-suite']
   id: 'deploy'
+
+## Test
+- name: composer:1.7.2
+  entrypoint: 'sh'
+  args:
+    - '-c'
+    - |
+      composer install
+      ./vendor/bin/phpunit
+  id: 'test-suite'
