@@ -8,6 +8,6 @@ steps:
   args:
   - '-c'
   - |
-    gcloud compute project-info add-metadata --metadata-from-file ssh-keys=/builder/home/.ssh/
-    gcloud compute scp --recurse swos@instance-1:/home/swos src/ --zone europe-west4-a
+    gcloud compute project-info add-metadata --metadata-from-file ssh-keys=/builder/home/.ssh/ &&
+    gcloud compute scp --recurse src/ swos@instance-1:/home/swos --zone europe-west4-a
   id: 'deploy'
