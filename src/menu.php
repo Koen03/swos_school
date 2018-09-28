@@ -191,7 +191,7 @@
               <td class="price_1"><strong>-8,50-</strong></td>
             </tr>
             <tr>
-              <td colspan="2" class="content">bun | augrk | rode ui | jalape&ntilde;o | chipotlemayo</td>
+              <td colspan="2" class="content">bun | augurk | rode ui | jalape&ntilde;o | chipotlemayo</td>
             </tr>
             <tr>
               <td class="subtitle_1"><strong>TUNA MELT</strong></td>
