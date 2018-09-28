@@ -14,6 +14,7 @@
           <ul>
             <li><a class="active" href="index.php">Home</a></li>
             <li><a href="menu.php">Menu</a></li>
+            <li><a href="over_ons.php">Over ons</a></li>
         </ul>
         </div>
       </div>
