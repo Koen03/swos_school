@@ -1,0 +1,329 @@
+/*background*/
+*{margin:0px;}
+body{background: #202020;}
+.home{z-index: -2;}
+
+/*header*/
+.header{background-color: black;
+        height: 30px;}
+
+/*Menu*/
+.menu a{text-decoration: none;
+        color: #FFFFFF;
+        float: left;}
+.menu {width:850px;
+       margin:0 auto;
+       list-style:none;}
+.menu li {float:left;
+          margin-top: 6px;}
+.menu a {display:block;
+         text-align:center;
+         width:150px; /* fixed width */
+         text-decoration:none;}
+.menu a:hover{text-decoration: underline;}
+.menu .active{text-decoration: underline;}
+
+/*content_container*/
+.content_container{float: left;
+                   width: 100%;
+                   height: 1250px;}
+/*content_container_menu*/
+.content_container_menu{float: left;
+                        width: 100%;
+                        height: 2121px;}
+/*content container reserveren*/
+.content_container_1{background-color: white;
+                     position: absolute;
+                     top: 350px;
+                     left: 675px;
+                     width: 600px;
+                     height: 517px;
+                     z-index: -1;
+                     text-align: left;}
+
+/*content container ervaring*/
+.content_container_ervaring{background-color: white;
+                            position: absolute;
+                            top: 350px;
+                            left: 675px;
+                            width: 600px;
+                            height: 725px;
+                            z-index: -1;
+                            text-align: left;}
+
+/*content container over ons*/
+.content_container_over_ons{float: left;
+                   width: 100%;
+                   height: 1400px;}
+
+.content_container_2{background-color: white;
+                     position: absolute;
+                     top: 350px;
+                     left: 675px;
+                     width: 600px;
+                     height: 700px;
+                     z-index: -1;
+                     text-align: right;}
+
+.content_container_3{background-color: white;
+                    position: absolute;
+                     top: 888px;
+                     left: 675px;
+                     width: 600px;
+                     height: 290px;
+                     z-index: -1;
+                     text-align: left;}
+
+/*logo*/
+.logo{position: absolute;
+      top: 150px;
+      left: 515px;}
+
+/*voorpagina*/
+.voorpagina{position: absolute;
+            top: 350px;
+            left: 675px;}
+.rbda{position: absolute;
+      top: 240px;
+      left: 968px;}
+.social_media{position: absolute;
+              top: 965px;
+              left: 1158px;}
+
+/*design award logo bij menu*/
+.menu_kaart .rbda{position: absolute;
+                  top: 240px;
+                  left: 1068px;}
+
+/*reserverings image*/
+.img_reserveren{position: absolute;
+                top: 464px;
+                left: 675px;}
+
+/*over ons image*/
+.img_over_ons_1{position: absolute;
+                top: 361px;
+                left: 686px;}
+.img_over_ons_2{position: absolute;
+                top: 515px;
+                left: 722px;
+                width: 515px;}
+
+/*menu kaart*/
+#menu_kaart{background-color: white;
+            position: absolute;
+            top: 350px;
+            left: 675px;
+            width: 700px;
+            text-align: left;}
+.menu_kaart_1{width: 80%;
+              margin-left: 10%;}
+.row_title{text-align: center;
+           margin: 15px;
+           text-shadow: 3px 3px grey;
+           width: 106%}
+.row_title_1{text-align: center;
+             margin-top: 10px;
+             margin-bottom: 30px;
+             width: 109%;}
+.subtitle{text-align: center;}
+.subtitle_1{text-align: left;
+            margin-top: 2px;
+            width: 71%;}
+.price{text-align: right;
+       margin-top: 2px;}
+.price_1{text-align: right;
+         position: absolute;
+         margin-left: 120px;}
+.price_2{text-align: right;
+         position: absolute;
+         margin-left: 112px;}
+.content{text-align: left;
+         margin-top: 2px;}
+.hr {display: block;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-style: dashed;
+    border-width: 1px;
+    position: relative;
+    top: 146px;}
+.hr1 {display: block;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-style: dashed;
+    border-width: 1px;
+    position: relative;
+    top: 248px;}
+.hr2 {display: block;
+      margin-top: 2px;
+      margin-bottom: 2px;
+      margin-left: 10%;
+      margin-right: 10%;
+      border-style: dashed;
+      border-width: 1px;
+      position: relative;
+      top: 591px;}
+.hr3 {display: block;
+      margin-top: 2px;
+      margin-bottom: 2px;
+      margin-left: 10%;
+      margin-right: 10%;
+      border-style: dashed;
+      border-width: 1px;
+      position: relative;
+      top: 830px;}
+.hr4 {display: block;
+      margin-top: 2px;
+      margin-bottom: 2px;
+      margin-left: 10%;
+      margin-right: 10%;
+      border-style: dashed;
+      border-width: 1px;
+      position: relative;
+      top: 1035px;}
+
+
+/*reservering*/
+.content_reserveren{margin-left: 50px;
+                    font-size: 13px;
+                    text-decoration: none;
+                    line-height: 8px;}
+
+/*contact gegevens*/
+.openings_tijden{position: absolute;
+                 top: 965px;
+                 left: 882px;
+                 color: #FFFFFF;}
+.openings_tijden_r1{margin-top: 9px;
+                    font-size: 10pt;}
+.openings_tijden_r2{margin-top: 9px;
+                    font-size: 10pt;}
+.openings_tijden_r3{margin-top: 9px;
+                    font-size: 10pt;}
+.openings_tijden_r4{margin-top: 9px;
+                    font-size: 10pt;}
+.openings_tijden_r5{margin-top: 9px;
+                    font-size: 10pt;}
+.openings_tijden_r6{margin-top: 9px;
+                    font-size: 10pt;}
+.openings_tijden_r7{margin-top: 9px;
+                    font-size: 10pt;}
+.adres{position: absolute;
+       top: 965px;
+       left: 677px;
+       color: #FFFFFF;}
+.adres_r1{margin-top: 9px;
+          font-size: 10pt;}
+.adres_r2{margin-top: 9px;
+          font-size: 10pt;}
+.adres_r3{margin-top: 9px;
+          font-size: 10pt;}
+.adres_r4{margin-top: 9px;
+          font-size: 10pt;}
+
+/*Ervaring*/
+/*video ervaring*/
+.video{width: 500px;
+       height: 281px;
+       position: absolute;
+       top: 465px;
+       left: 728px;
+       z-index: 1;}
+.form_naam{position: absolute;
+           top: 766px;
+           left: 728px;}
+#form_data{position: absolute;
+           top: 18px;
+           left: 211px;
+           width: 288px;
+           height: 55px;}
+#form_type{position: absolute;
+           top: 0px;
+           left: 211px;}
+
+/*over ons*/
+.content_over_ons{margin-top:15px;
+                  margin-right:40px;
+                  font-size: 14px;
+                  text-decoration: none;
+                  line-height: 21px;}
+.content_over_ons_2{margin-top:15px;
+                    margin-left:40px;
+                    font-size: 14px;
+                    text-decoration: none;
+                    line-height: 21px;}
+
+/*contact gegevens menu*/
+.openings_tijden_menu{position: absolute;
+                      top: 1882px;
+                      left: 882px;
+                      color: #FFFFFF;}
+.adres_menu{position: absolute;
+            top: 1882px;
+            left: 677px;
+            color: #FFFFFF;}
+
+.social_media_menu{position: absolute;
+                    top: 1882px;
+                    left: 1256px;}
+
+/*contact gegevens reserveren*/
+.openings_tijden_reserveren{position: absolute;
+                      top: 882px;
+                      left: 882px;
+                      color: #FFFFFF;}
+.adres_reserveren{position: absolute;
+            top: 882px;
+            left: 677px;
+            color: #FFFFFF;}
+
+.social_media_reserveren{position: absolute;
+                    top: 882px;
+                    left: 1159px;}
+
+/*contact gegevens ervaring*/
+
+.openings_tijden_ervaring{position: absolute;
+                      top: 1084px;
+                      left: 882px;
+                      color: #FFFFFF;}
+.adres_ervaring{position: absolute;
+            top: 1084px;
+            left: 677px;
+            color: #FFFFFF;}
+
+.social_media_ervaring{position: absolute;
+                    top: 1084px;
+                    left: 1159px;}
+
+/*contact gegevens over ons*/
+
+.openings_tijden_over_ons{position: absolute;
+                          top: 1190px;
+                          left: 882px;
+                          color: #FFFFFF;}
+.adres_over_ons{position: absolute;
+                top: 1190px;
+                left: 677px;
+                color: #FFFFFF;}
+
+.social_media_over_ons{position: absolute;
+                       top: 1190px;
+                       left: 1159px;}
+
+/*footer_text*/
+.footer_text{color: #FFFFFF;}
+.footer_text{font-size: 8pt;}
+.footer_text{margin-top: 9px;}
+.footer_text{text-align: center;}
+
+/*footer*/
+.footer{background-color: black;
+        float: left;
+        clear: both;
+        width: 100%;
+        height: 30px;}
