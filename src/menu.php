@@ -27,7 +27,7 @@
             <img src="images/RBDA_logo_shortlist_.jpg" alt="img"></a></div>
         </div>
 
-        <div class="menu_kaart">
+        <div id="menu_kaart">
           <div class="hr"><hr></div>
           <div class="hr1"><hr></div>
           <div class="hr2"><hr></div>
