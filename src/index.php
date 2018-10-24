@@ -3,7 +3,7 @@
     <head>
       <title>De Vooruitgang</title>
       <meta charset="UTF-8">
-      <meta name="keywords" content="restaurant, bar, eetcafé, markt, eindhoven, eten, drinken, stappen">
+      <meta name="keywords" content="restaurants, bar, eetcafé, markt, eindhoven, eten, drinken, stappen">
       <meta name="description" content="Restaurant en bar op de markt in  Eindhoven">
       <link href="style_sheet.css" rel="stylesheet">
     </head>
@@ -12,7 +12,7 @@
       <div class="header">
         <div class="menu">
           <ul>
-            <li><a class="active" href="index.php">Home</a></li>
+            <li><a class="active" href="index.php">Homes</a></li>
             <li><a href="menu.php">Menu</a></li>
             <li><a href="over_ons.php">Over ons</a></li>
         </ul>
